@@ -7,10 +7,10 @@ This project is a Kanban board application designed to help users organize and m
 The motivation behind this project stems from the need for a simple yet powerful tool to manage tasks and workflows. As a developer, I often find myself juggling multiple tasks and projects simultaneously. I wanted to create a solution that would streamline this process and improve productivity.
 
 ## Technologies Used
-- MongoDB: MongoDB serves as the database for storing task data in the Kanban application. Creates API endpoints on your backend server for performing CRUD operations (Create, Read, Update, Delete) on task data. These endpoints will be responsible for receiving requests from the client-side application and executing the corresponding operations on the MongoDB database.
-- ExpressJS: creates the backend server for the Kanban application. Routes and middleware handle HTTP requests from the client-side application, simplifying building RESTful APIs and managing server-side logic.
-- ReactJS: Constructs the frontend user interface of the Kanban application. 
-- NodeJS: runs the server-side JavaScript code for the backend. It handles requests from users, talks to the MongoDB database, and makes sure everything runs smoothly. Node.js is good at handling lots of tasks at once, making the server fast and efficient.
+- **MongoDB**: MongoDB serves as the database for storing task data in the Kanban application. Creates API endpoints on your backend server for performing CRUD operations (Create, Read, Update, Delete) on task data. These endpoints will be responsible for receiving requests from the client-side application and executing the corresponding operations on the MongoDB database.
+- **ExpressJS**: creates the backend server for the Kanban application. Routes and middleware handle HTTP requests from the client-side application, simplifying building RESTful APIs and managing server-side logic.
+- **ReactJS**: Constructs the frontend user interface of the Kanban application. 
+- **NodeJS**: runs the server-side JavaScript code for the backend. It handles requests from users, talks to the MongoDB database, and makes sure everything runs smoothly. Node.js is good at handling lots of tasks at once, making the server fast and efficient.
 
 ## Features
 - **Drag-and-Drop Functionality**: Users can easily move tasks between different columns on the Kanban board.
