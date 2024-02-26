@@ -21,3 +21,14 @@ The motivation behind this project stems from the need for a simple yet powerful
 
 ## Figma Design
 - Explore the design of this project on Figma by following the link: https://www.figma.com/file/y2fSuBojaiNqXjCl6h1UTF/kanban?type=design&node-id=0%3A1&mode=design&t=akejXU1tuTvg6LhT-1
+
+
+## Fun Fact
+
+The term "Kanban" originated from Japan and is comprised of two Japanese characters: "kan" (看) meaning "visual" and "ban" (板) meaning "card" or "board." 
+
+- It was first introduced by Toyota in the 1940s as part of their manufacturing process known as the Toyota Production System (TPS). 
+
+- Kanban was initially used as a scheduling system to control the flow of materials and components through the production line. 
+
+- Over time, the concept of Kanban evolved beyond manufacturing and has been widely adopted in various industries as a method for visualizing workflows, managing tasks, and improving efficiency.
