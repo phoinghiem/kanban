@@ -10,6 +10,7 @@ The motivation behind this project stems from the need for a simple yet powerful
 - HTML/CSS: Used for structuring and styling the user interface of the Kanban board.
 - JavaScript: Used for implementing dynamic functionality such as task creation, movement, and deletion.
 - Bootstrap CSS (V5.3): Used for responsive design and layout of the Kanban board interface.
+- MongoDB: Used for storaging task data that can be access by any user who view app. Creates API endpoints on your backend server for performing CRUD operations (Create, Read, Update, Delete) on task data. These endpoints will be responsible for receiving requests from the client-side application and executing the corresponding operations on the MongoDB database.
 
 ## Features
 - **Drag-and-Drop Functionality**: Users can easily move tasks between different columns on the Kanban board.
@@ -24,7 +25,6 @@ The motivation behind this project stems from the need for a simple yet powerful
 
 
 ## Fun Fact
-
 The term "Kanban" originated from Japan and is comprised of two Japanese characters: "kan" (看) meaning "visual" and "ban" (板) meaning "card" or "board." 
 
 - It was first introduced by Toyota in the 1940s as part of their manufacturing process known as the Toyota Production System (TPS). 
