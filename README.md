@@ -22,7 +22,9 @@ The motivation behind this project stems from the need for a simple yet powerful
 - **Responsive Design**: The application is fully responsive and works seamlessly across different devices and screen sizes.
 
 ## Figma Design
-- Explore the design of this project on Figma by following the link: https://www.figma.com/file/y2fSuBojaiNqXjCl6h1UTF/kanban?type=design&node-id=1%3A2&mode=design&t=VTh4qdwhY1d0iouW-1
+
+Explore the design of this project on Figma by following the link below: 
+https://www.figma.com/file/y2fSuBojaiNqXjCl6h1UTF/kanban?type=design&node-id=1%3A2&mode=design&t=VTh4qdwhY1d0iouW-1
 
 ## How to get started 
 1. Open terminal and git clone https://github.com/phoinghiem/kanban.git
