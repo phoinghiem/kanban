@@ -15,10 +15,9 @@ The motivation behind this project stems from the need for a simple yet powerful
 - **Drag-and-Drop Functionality**: Users can easily move tasks between different columns on the Kanban board.
 - **Task Creation and Deletion**: Users can quickly create new tasks and delete existing ones as needed.
 - **Searching Tasks**: Easily search for specific tasks within the Kanban board.
-
 - **Adding Notes and Comments**: Add notes and comments to task cards for additional context and collaboration.
-
+- **Switch between Light and Dark Mode**: : User can customize viewing experience by toggling between light and dark modes for better readability and reduced eye strain.
 - **Responsive Design**: The application is fully responsive and works seamlessly across different devices and screen sizes.
 
 ## Figma Design
-- Explore the design of this project on Figma by following the link:
+- Explore the design of this project on Figma by following the link: https://www.figma.com/file/y2fSuBojaiNqXjCl6h1UTF/kanban?type=design&node-id=0%3A1&mode=design&t=akejXU1tuTvg6LhT-1
