@@ -8,8 +8,11 @@ The motivation behind this project stems from the need for a simple yet powerful
 
 ## Technologies Used
 - **MongoDB**: MongoDB serves as the database for storing task data in the Kanban application. Creates API endpoints on your backend server for performing CRUD operations (Create, Read, Update, Delete) on task data. These endpoints will be responsible for receiving requests from the client-side application and executing the corresponding operations on the MongoDB database.
+
 - **ExpressJS**: Creates the backend server for the Kanban application. Routes and middleware handle HTTP requests from the client-side application, simplifying building RESTful APIs and managing server-side logic.
+
 - **ReactJS**: Constructs the frontend user interface of the Kanban application. 
+
 - **NodeJS**: runs the server-side JavaScript code for the backend. It handles requests from users, talks to the MongoDB database, and makes sure everything runs smoothly. Node.js is good at handling lots of tasks at once, making the server fast and efficient.
 
 ### API ends with Postman
@@ -24,10 +27,15 @@ The motivation behind this project stems from the need for a simple yet powerful
 
 ## Features
 - **Drag-and-Drop Functionality**: Users can easily move tasks between different columns on the Kanban board.
+
 - **Task Creation and Deletion**: Users can quickly create new tasks and delete existing ones as needed.
+
 - **Searching Tasks**: Easily search for specific tasks within the Kanban board.
+
 - **Adding Notes and Comments**: Add notes and comments to task cards for additional context and collaboration.
+
 - **Switch between Light and Dark Mode**: : User can customize viewing experience by toggling between light and dark modes for better readability and reduced eye strain.
+
 - **Responsive Design**: The application is fully responsive and works seamlessly across different devices and screen sizes.
 
 ## Figma Design
