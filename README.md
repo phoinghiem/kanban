@@ -11,7 +11,16 @@ The motivation behind this project stems from the need for a simple yet powerful
 - **ExpressJS**: Creates the backend server for the Kanban application. Routes and middleware handle HTTP requests from the client-side application, simplifying building RESTful APIs and managing server-side logic.
 - **ReactJS**: Constructs the frontend user interface of the Kanban application. 
 - **NodeJS**: runs the server-side JavaScript code for the backend. It handles requests from users, talks to the MongoDB database, and makes sure everything runs smoothly. Node.js is good at handling lots of tasks at once, making the server fast and efficient.
-- **Postman**: Monitor and test out route for API. 
+
+### API ends with Postman
+
+**Postman**: Monitor and test out route for API. 
+
+- **GET** --> Gets all the task documents
+- **POST** --> Creates new task doucuments
+- **GET** --> Gets a single task document
+- **DELETE** --> Delete a single task
+- **PATCH** --> Updates a single task
 
 ## Features
 - **Drag-and-Drop Functionality**: Users can easily move tasks between different columns on the Kanban board.
