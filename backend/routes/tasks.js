@@ -3,7 +3,9 @@ const Task = require('../models/taskModel')
 const {
     getTasks,
     getTask,
-    createTask
+    createTask,
+    deleteTask,
+    updateTask
 } = require('../controllers/taskController')
 
 const router = express.Router()
@@ -21,14 +23,10 @@ router.get('/:id', getTask)
 router.post('/', createTask)
 
 // DELETE new task
-router.delete('/:id', (req, res) => {
-    res.json({mssg: "DELETE a new single task"})
-})
+router.delete('/:id', deleteTask)
 
 // UPDATE new task
-router.patch('/:id', (req, res) => {
-    res.json({mssg: "UPDATE a single task"})
-})
+router.patch('/:id', updateTask)
 
 //Exporting route at the end
 module.exports = router
