@@ -1,10 +1,8 @@
 const Homepage = () => {
     return (
-        <header>
-            <div className="container-navbar">
-                
-            </div>
-        </header>
+        <div>
+            <h1>testing</h1>
+        </div>
     )
 }
 

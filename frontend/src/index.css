@@ -1,6 +1,8 @@
 :root {
   --primary-dark: #2F2F2D;
   --primary-light: #EAEBED;
+  --primary-grey: #898989;
+  --absolute-white: #ffffff;
 
   /*Light mode*/
   --light-01: #E890B6;
@@ -22,8 +24,84 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.app-container {
-  width: 100vw;
+
+.app-container{
+  width: 100%;
   min-height: 100vh;
   background: var(--primary-light);
+  transition: 0.5s;
+}
+
+.app-container.dark {
+  background: var(--primary-dark);
+}
+
+ /*Navbar */
+
+.navbar-container {
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-light);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.navbar-container.dark {
+  background: var(--primary-dark);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.search-icon, .switch-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.switch-icon {
+  margin: 0px 15px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: var(--primary-grey);
+  padding: 10px 15px; 
+  border-radius: 30px;
+}
+
+.search-box input {
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--absolute-white);
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.search-box input::placeholder {
+  color: var(--absolute-white);
+}
+
+ /*Home/Main Page */
+
+.home-container {
+  width: 100%;
+  min-height: 90vh;
+  background: var(--primary-light);
+  transition: 0.5s;
+}
+
+.home-container.dark {
+  background: var(--primary-dark);
 }
