@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useEffect, useState } from 'react';
+import React from 'react';
 //Importing components
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
@@ -24,7 +25,7 @@ const App = () => {
           <Routes>
             <Route
               path="/"
-              element={<Homepage/>}
+              element={<Homepage theme={theme} setTheme={setTheme}/>}
             />
           </Routes>
         </div>

@@ -3,6 +3,7 @@
   --primary-light: #EAEBED;
   --primary-grey: #898989;
   --absolute-white: #ffffff;
+  --primary-red: #F44C30;
 
   /*Light mode*/
   --light-01: #E890B6;
@@ -12,9 +13,9 @@
 
   /*Dark mode*/
 
-  --dark-01: #F44C30;
+  --dark-01: #CEB2F2;
   --dark-02: #D8F501;
-  --dark-03: #CEB2F2;
+  --dark-03: #69C0FF;
   --dark-04: #01A561;
 }
 
@@ -37,7 +38,6 @@
 }
 
  /*Navbar */
-
 .navbar-container {
   width: 100%; 
   display: flex;
@@ -71,6 +71,7 @@
 .switch-icon {
   margin: 0px 15px;
 }
+
 .search-box {
   display: flex;
   align-items: center;
@@ -94,10 +95,9 @@
 }
 
  /*Home/Main Page */
-
 .home-container {
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   background: var(--primary-light);
   transition: 0.5s;
 }
@@ -105,3 +105,38 @@
 .home-container.dark {
   background: var(--primary-dark);
 }
+
+
+ /*Column */
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.column {
+  margin: 10px 20px;
+  border: red 2px solid;
+  width: 250px;
+}
+
+.todo {
+  color: var(--primary-dark)
+}
+
+.todo.dark {
+  color: var(--primary-light)
+}
+
+ /*Task Card */
+ .card {
+  width: 200px;
+  height: 150px;
+  border: 1px black solid;
+  margin: 5px;
+  background: var(--primary-dark);
+ }
+
+ .card.dark {
+  background: var(--primary-light);
+ }

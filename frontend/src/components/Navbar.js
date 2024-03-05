@@ -21,7 +21,6 @@ const Navbar = ({theme, setTheme}) => {
     return (
         <div className={`navbar-container ${theme}`}>
             <img src={theme == 'light' ? light_logo : dark_logo } alt='logo' className='logo'/>
-        
             <div className='navbar-right'>
                 <div className='search-box'>
                     <input type="text" placeholder='Search'/>
